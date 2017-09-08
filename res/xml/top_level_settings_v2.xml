@@ -27,6 +27,22 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:order="-140"
+        android:key="top_level_ryz_category"
+        android:layout="@layout/settingslib_preference_category_no_title">
+
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.ryz.settings.RyzTune"
+            android:icon="@drawable/ic_settings_ryz"
+            android:key="top_level_ryz"
+            android:order="-160"
+            android:title="@string/ryz_dashboard_title"
+            android:summary="@string/ryz_dashboard_summary"
+            settings:highlightableMenuKey="@string/menu_key_ryztune"
+            settings:controller="com.ryz.settings.TopLevelRyzTunePreferenceController"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category"
         android:layout="@layout/settingslib_preference_category_no_title">

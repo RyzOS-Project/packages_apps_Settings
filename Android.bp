@@ -57,17 +57,24 @@ android_library {
         "src/**/*.kt",
         "src-ryz/**/*.java",
         "src-ryz/**/*.kt",
+        "RyzTune/src/**/*.java",
+        "RyzTune/src/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
     ],
     use_resource_processor: true,
+
+    aaptflags: ["--extra-packages com.ryz.settings"],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
         "res-ryz",
+        "RyzTune/res",
     ],
+
     static_libs: [
         // External dependencies
         "androidx.navigation_navigation-fragment-ktx",

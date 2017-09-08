@@ -211,6 +211,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.ryz.settings.RyzTune;
+
 public class SettingsGateway {
 
     /**
@@ -356,6 +358,7 @@ public class SettingsGateway {
             AutomaticStorageManagerSettings.class.getName(),
             StorageDashboardFragment.class.getName(),
             SystemDashboardFragment.class.getName(),
+            RyzTuneActivity.class.getName(),
             NetworkDashboardFragment.class.getName(),
             ConnectedDeviceDashboardFragment.class.getName(),
             UsbDetailsFragment.class.getName(),
@@ -456,5 +459,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
+            Settings.RyzTuneActivity.class.getName(),
     };
 }

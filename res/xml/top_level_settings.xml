@@ -21,6 +21,16 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.ryz.settings.RyzTune"
+        android:icon="@drawable/ic_settings_ryz"
+        android:key="top_level_ryz"
+        android:order="-160"
+        android:title="@string/ryz_dashboard_title"
+        android:summary="@string/ryz_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_ryztune"
+        settings:controller="com.ryz.settings.TopLevelRyzTunePreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"
