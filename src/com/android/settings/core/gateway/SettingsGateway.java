@@ -214,6 +214,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.ryz.settings.RyzTune;
+import com.ryz.settings.fragments.miscellaneous.SmartPixels;
 
 public class SettingsGateway {
 
@@ -417,6 +418,7 @@ public class SettingsGateway {
             ContactsStorageSettings.class.getName(),
             PrivateDnsSettings.class.getName(),
             VolumeStepsSettings.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -466,5 +468,6 @@ public class SettingsGateway {
             Settings.RyzTuneActivity.class.getName(),
             // Others (RyzOS Additions)
             Settings.PrivateDnsSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
