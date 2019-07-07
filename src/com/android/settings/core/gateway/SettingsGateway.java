@@ -213,6 +213,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.ryz.settings.fragments.miscellaneous.SmartPixels;
+
 public class SettingsGateway {
 
     /**
@@ -414,6 +416,7 @@ public class SettingsGateway {
             ContactsStorageSettings.class.getName(),
             PrivateDnsSettings.class.getName(),
             VolumeStepsSettings.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -462,5 +465,6 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             // Others (Evolution X Additions)
             Settings.PrivateDnsSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
