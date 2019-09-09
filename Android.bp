@@ -55,6 +55,8 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
+        "src-ryz/**/*.java",
+        "src-ryz/**/*.kt",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -64,6 +66,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "res-ryz",
     ],
     static_libs: [
         // External dependencies
