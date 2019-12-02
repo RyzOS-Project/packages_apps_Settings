@@ -40,6 +40,7 @@
     <string name="selinux_status_enforcing">Enforcing</string>
 
     <!-- Hardware info -->
+    <string name="about_device_name">Device</string>
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 </resources>
