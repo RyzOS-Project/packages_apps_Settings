@@ -29,8 +29,17 @@
 
     <!-- Firmware Category -->
     <PreferenceCategory
-        android:title="@string/ryz_fw_rom_cat">
-    
+        android:title="@string/ryzos_fw_rom_cat">
+
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:layout="@layout/xd_pref_card_top"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
         <!-- RyzOS version -->
     <Preference
         android:key="ryzos_version"
@@ -38,7 +47,7 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
-        settings:layout="@layout/xd_pref_card_top"
+        settings:layout="@layout/xd_pref_card_mid"
         settings:controller="com.ryz.settings.deviceinfo.firmwareversion.RyzVersionDetailPreferenceController"/>
 
     <!-- RyzOS Maintainer  -->
