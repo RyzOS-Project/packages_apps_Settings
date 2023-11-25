@@ -73,6 +73,7 @@ android_library {
         "res-product",
         "res-ryz",
         "RyzTune/res",
+        "SettingsGoogle/res",
     ],
 
     static_libs: [
