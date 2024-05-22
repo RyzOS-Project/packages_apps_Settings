@@ -111,6 +111,12 @@
             settings:keywords="@string/keywords_always_show_time_info"
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
+            
+        <com.ryz.settings.preferences.SecureSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            android:defaultValue="false" />
 
         <Preference
             android:key="ambient_display_tap"
