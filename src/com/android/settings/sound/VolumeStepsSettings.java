@@ -76,7 +76,7 @@ public class VolumeStepsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.EVOLVER;
+        return MetricsEvent.RYZTUNE;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

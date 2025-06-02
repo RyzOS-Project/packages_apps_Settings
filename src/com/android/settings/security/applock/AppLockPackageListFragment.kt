@@ -140,7 +140,7 @@ class AppLockPackageListFragment : DashboardFragment() {
         }
     }
 
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.EVOLVER
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.RYZTUNE
 
     override protected fun getPreferenceScreenResId() = R.xml.app_lock_package_list_settings
 
